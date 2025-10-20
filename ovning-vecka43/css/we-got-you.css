@@ -1,11 +1,13 @@
 .we-got-you {
+  display: flex;
+  align-items: flex-start;
   flex-direction: column;
   background-color: var(---color-light-blue);
   background-image: url(../assets/img/family.png);
-  background-size: 60%;
+  background-size: 100%;
   background-position: bottom;
+  height: 80vh;
   background-repeat: no-repeat;
-  padding: 5rem 7rem 0rem 7rem;
 }
 
 .btn-join-now {

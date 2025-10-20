@@ -1,0 +1,15 @@
+.we-got-you {
+  flex-direction: column;
+  background-color: var(---color-light-blue);
+  background-image: url(../assets/img/family.png);
+  background-size: 60%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 5rem 7rem 0rem 7rem;
+}
+
+.btn-join-now {
+  background-color: var(---color-white);
+  border-radius: 4rem;
+  padding: 0.5rem 1.5rem;
+}

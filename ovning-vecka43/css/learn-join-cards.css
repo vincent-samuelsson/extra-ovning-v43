@@ -1,3 +1,22 @@
+/* kolla varför card 2 inte syns with samsung max ultra */
+
 .card {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40vh;
+  background-color: var(---color-orange-main);
+}
+
+.card:last-child {
+  background-color: var(---color-accent-orange);
+}
+
+/* obs detta kan störa andra H2or i resten av sidan */
+.card h2 {
+  font-size: small;
+  font-weight: bold;
+  opacity: 0.3;
 }

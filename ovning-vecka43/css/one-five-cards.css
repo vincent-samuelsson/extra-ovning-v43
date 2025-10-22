@@ -1,0 +1,32 @@
+.one-to-five-cards-container {
+  justify-content: center;
+  text-align: center;
+}
+
+.how-it-works-card {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: xx-large;
+  padding: 20px;
+
+  background-color: var(---color-light-blue);
+}
+
+.stack {
+  display: block;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+.how-it-works-card p {
+  /* line-height: 2.5; */
+  word-wrap: break-word;
+}
+
+.h3-one-to-five {
+  font-size: xx-large;
+  font-weight: 700;
+  color: gray;
+  text-align: start;
+}

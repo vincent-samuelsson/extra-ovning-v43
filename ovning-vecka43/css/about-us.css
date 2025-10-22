@@ -1,0 +1,18 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 6% 3rem;
+  background-color: var(---color-accent-orange);
+}
+
+.about-us-h2 {
+  color: white;
+  font-size: xx-large;
+}
+
+.about-us-card {
+  color: black;
+}

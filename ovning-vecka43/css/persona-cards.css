@@ -2,9 +2,23 @@
   background-color: var(---color-light-blue);
   background-image: url(../assets/img/child.png);
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
   width: 100%;
   height: 74vh;
   border-radius: 4px;
   transform: translate(1rem 2rem);
   aspect-ratio: 3/2;
+}
+
+.persona-card:nth-of-type(2) {
+  background-image: url(../assets/img/adult.png);
+  background-repeat: no-repeat;
+}
+
+.persona-card:last-child {
+  background-image: url(../assets/img/old.png);
+  background-color: var(---color-orange-main);
 }

@@ -1,0 +1,16 @@
+.oh-hello {
+  display: flex;
+  align-items: center;
+  background-color: var(---color-light-blue);
+  background-image: url(../assets/img/man-baby.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 40vh;
+  background-position: bottom right 40px;
+}
+/* br lösning pallar inte , ändra sen med jesper */
+.h2-hello {
+  font-size: xx-large;
+  margin: 0 0 0 4rem;
+  color: black;
+}

@@ -1,6 +1,17 @@
 .one-to-five-cards-container {
-  justify-content: center;
   text-align: center;
+}
+
+.one-to-five-cards-content {
+  height: 10rem;
+}
+
+.one-to-five-cards-content:nth-child(2) {
+  background-color: var(---color-accent-gray);
+}
+
+.one-to-five-cards-content:nth-child(4) {
+  background-color: var(---color-orange-main);
 }
 
 .how-it-works-card {
@@ -15,13 +26,9 @@
 
 .stack {
   display: block;
-  line-height: 1;
+  line-height: 0.5;
   margin: 0;
   padding: 0;
-}
-.how-it-works-card p {
-  /* line-height: 2.5; */
-  word-wrap: break-word;
 }
 
 .h3-one-to-five {

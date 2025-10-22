@@ -14,6 +14,20 @@
   background-color: var(---color-orange-main);
 }
 
+.one-to-five-cards-content:nth-child(6) {
+  background-color: var(---color-accent-gray);
+}
+
+.one-to-five-cards-content:nth-child(7) {
+  height: 1rem;
+}
+
+.one-to-five-cards-content:nth-child(8) {
+  height: 0.5rem;
+  background-color: black;
+  opacity: 80%;
+}
+
 .how-it-works-card {
   display: flex;
   justify-content: center;

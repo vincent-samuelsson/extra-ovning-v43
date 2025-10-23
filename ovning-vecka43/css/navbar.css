@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ul-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.li-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.li-link:nth-child(4) {
+  background-color: var(---color-accent-gray);
+}
+
+.a-link {
+  display: flex;
+  text-decoration: none;
+}

@@ -1,4 +1,22 @@
 .footer-info {
-  height: 24vh;
+  position: relative;
+}
+
+.footer-inner-info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 2rem;
+  height: 14rem;
   background-color: var(---color-accent-orange);
+  color: white;
+  margin: -112px 19px;
+}
+
+.footer-inner-info > h2 {
+  font-size: xx-large;
+}
+
+.google-map {
+  position: absolute;
 }

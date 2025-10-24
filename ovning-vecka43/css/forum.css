@@ -1,0 +1,53 @@
+.forum {
+  display: flex;
+  background-color: var(---color-accent-gray);
+  height: 120vh;
+  flex-direction: column;
+}
+
+.forum > label {
+  padding: 1rem 1rem;
+  color: white;
+  opacity: 90%;
+}
+
+.forum > h2 {
+  font-size: xxx-large;
+  padding: 1rem 1rem;
+  color: white;
+  opacity: 90%;
+}
+
+.forum > .email {
+  background-color: white;
+  padding: 1rem 1rem;
+  border-radius: 4px;
+  border-style: none;
+  margin: 10px 10px 20px 10px;
+}
+
+.forum > textarea {
+  font-size: large;
+  font-weight: 400;
+  min-height: 150px;
+  max-height: 400px;
+  padding: 1rem 1rem;
+  border-radius: 4px;
+  resize: vertical;
+  margin: 10px 10px 20px 10px;
+  border-style: none;
+}
+
+.inp-submit {
+  display: flex;
+  padding: 20px 40px 20px 40px;
+  margin-right: 10px;
+  align-self: flex-end;
+  border-radius: 50px;
+  border-style: none;
+  color: black;
+  background-color: white;
+  opacity: 90%;
+  font-size: small;
+  font-weight: bold;
+}
